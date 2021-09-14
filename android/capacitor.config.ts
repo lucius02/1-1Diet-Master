@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.diet.app',
-  appName: '1:1 Diet',
+  appId: 'io.ionic.starter',
+  appName: '1op1',
   webDir: 'build',
   bundledWebRuntime: false
 };
