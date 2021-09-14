@@ -9,6 +9,8 @@
     "@angular/platform-browser": "^12.2.5",
     "@angular/router": "^12.2.5",
     "@babel/core": "^7.15.5",
+    "@capacitor/android": "^3.2.2",
+    "@capacitor/core": "3.2.2",
     "@ionic/angular": "^5.7.0",
     "@ionic/react": "^5.7.0",
     "@ionic/react-router": "^5.5.0",
@@ -56,7 +58,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "ionic build && ionic cap add android",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -80,6 +82,7 @@
   },
   "description": "An Ionic project",
   "devDependencies": {
+    "@capacitor/cli": "3.2.2",
     "react-scripts": "4.0.2"
   }
 }
